@@ -1,5 +1,5 @@
 //№1 Find and display total sum of numbers from 1 to 3;
-/*function total_sum_between_numbers(first_num,second_num,total_sum=0){
+function total_sum_between_numbers(first_num,second_num,total_sum=0){
   while (first_num <=second_num) {
     total_sum +=first_num;
     first_num++;
@@ -64,7 +64,7 @@ function changed_for_to_while(first_num,last_num){
     first_num++;
   }
 }
-changed_for_to_while(0,5)*/
+changed_for_to_while(0,5)
 
 //№8 Write code which will ask user (prompt ) to put number greater than 100, repeat prompt until user put required number, then display result of prompt
 //using ‘while’
@@ -79,7 +79,7 @@ function number_greater_than100(){
 }
 number_greater_than100();
 
-/*
+
 //№9 using ‘do while’
 function number_greater_than100_do_while(){
   var greater_than100_num=0;
@@ -99,4 +99,4 @@ function symbol_to_print(symbol,num,list=[]){
     console.log(list)
   }
 }
-symbol_to_print("#",8)*/
+symbol_to_print("#",8)
