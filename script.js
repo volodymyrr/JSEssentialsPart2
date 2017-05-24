@@ -82,7 +82,7 @@ console.log("**********END OF TASK 7**********")
 
 //№8 Write code which will ask user (prompt ) to put number greater than 100, repeat prompt until user put required number, then display result of prompt
 //using ‘while’
-console.log("**********TASK 8 DISPLAYED IN THE ALERT**********")
+console.log("**********TASK 8 DISPLAYED IN THE ALERT***********")
 function number_greater_than100(){
   var greater_than100_num = prompt("Please input number greater than 100: ");
       while(greater_than100_num <=100) {
@@ -95,7 +95,7 @@ function number_greater_than100(){
 number_greater_than100();
 
 //№9 using ‘do while’
-console.log("**********TASK 9 DISPLAYED IN THE ALERT**********")
+console.log("**********TASK 9 DISPLAYED IN THE ALERT***********")
 function number_greater_than100_do_while(){
   var greater_than100_num=0;
     do {
