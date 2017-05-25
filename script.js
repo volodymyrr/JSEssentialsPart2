@@ -49,7 +49,7 @@ console.log("**********END OF TASK 4**********")
 console.log("**********TASK 5**********")
 function odd_numbers_in_range(first_num,second_num){
   while(first_num <= second_num){
-  if (first_num%2 == 0)
+  if (first_num%2 != 0)
     console.log(first_num);
   first_num++;
   }
